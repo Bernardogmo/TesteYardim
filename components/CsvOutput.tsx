@@ -1,9 +1,11 @@
 import React from "react";
 
+// Define uma interface para as propriedades do componente CsvOutput
 interface CsvOutputProps {
-  csvContent: string;  // A propriedade que recebe o conteúdo CSV
+  csvContent: string;  
 }
 
+// Componente funcional CsvOutput 
 const CsvOutput: React.FC<CsvOutputProps> = ({ csvContent }) => {
   return (
     <textarea
