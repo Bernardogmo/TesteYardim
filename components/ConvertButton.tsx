@@ -11,14 +11,14 @@ export default function ConvertButton({ onConvert, onClear }: ConvertButtonProps
             {/* Botão "Converter" */}
             <button
                 onClick={onConvert} 
-                className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 transition-all"
+                className="px-4 py-2 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-900 transition-all"
             >
                 Converter
             </button>
             {/* Botão "Limpar" */}
             <button
                 onClick={onClear} 
-                className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 transition-all"
+                className="px-4 py-2 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-900 transition-all"
             >
                 Limpar
             </button>

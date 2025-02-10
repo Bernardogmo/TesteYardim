@@ -8,12 +8,14 @@ interface CsvOutputProps {
 // Componente funcional CsvOutput 
 const CsvOutput: React.FC<CsvOutputProps> = ({ csvContent }) => {
   return (
-    <textarea
-      value={csvContent}
-      readOnly
-      className="w-full h-40 p-2 border rounded-lg bg-gray-100 text-black"
-      placeholder="CSV gerado aparecerá aqui"
-    />
+    <div className="w-full max-w-2xl">
+      <textarea
+        value={csvContent}
+        readOnly
+        className="w-full h-40 p-2 border rounded-lg bg-gray-100 text-black"
+        placeholder="CSV gerado aparecerá aqui"
+      />
+    </div>
   );
 };
 

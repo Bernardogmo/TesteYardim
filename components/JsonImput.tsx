@@ -14,7 +14,7 @@ export default function JsonInput({ value, onChange }: JsonInputProps) {
         value={value}
         onChange={(e) => onChange(e.target.value)}
         className="w-full h-40 p-2 border rounded-lg text-black "
-        placeholder='{"nome": "João", "idade": 30}'
+        placeholder='[{"nome": "João", "idade": 30}]'
       />
     </div>
   );
