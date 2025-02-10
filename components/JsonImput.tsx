@@ -6,7 +6,7 @@ interface JsonInputProps {
 export default function JsonInput({ value, onChange }: JsonInputProps) {
   return (
     <div className="w-full max-w-2xl">
-      <label htmlFor="jsonInput" className="block text-lg font-semibold mb-2">
+      <label htmlFor="jsonInput" className="block text-lg text-center font-semibold mb-2">
         Insira o JSON:
       </label>
       <textarea

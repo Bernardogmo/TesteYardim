@@ -18,7 +18,7 @@ export default function DownloadCsv({ csvData, filename }: DownloadCsvProps) {
       <a
         href={createDownloadLink()}
         download={filename}
-        className="mt-4 p-2 bg-green-700 text-white rounded-md hover:bg-green-900"
+        className="mt-4 p-2 bg-blue-700 text-white rounded-md hover:bg-blue-900"
       >
         Baixar CSV
       </a>
